@@ -1,1 +1,3 @@
 # Logical_Coding_Challenge
+
+# Hi, In this Challenge, Daily I'll solve logical coding questions atleast one per day.....
