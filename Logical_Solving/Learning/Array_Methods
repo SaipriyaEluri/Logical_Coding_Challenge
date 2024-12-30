@@ -1,0 +1,21 @@
+let arr = ["Apple","Banana","Grapes","Oranges"];
+
+console.log(arr.toString());    // converts array to string with comma seperated
+
+console.log(arr.join(" "));      // converts array to string - we need to mention sepearation
+
+console.log(arr.pop());  // removes last element from arrry
+
+console.log(arr.shift()); // removes first element from array
+
+console.log(arr.push("Guava"));  // adds one element to the last of array - returns new array length
+
+console.log(arr.unshift("Mangoes"))  // adds element to first of array - returns new array length
+
+console.log(arr[arr.length] = "kiwi")
+
+console.log(arr)
+
+//// slice and splice methods explanation
+
+let cities = ["Hyderabad","Secunderabad","Chennai","Mumbai","Bangalore","Vizag"]

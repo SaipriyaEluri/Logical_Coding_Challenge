@@ -1,0 +1,7 @@
+let str = "Mr Bean has a red car and Red bike"
+let newStr = str.replace(/red/gi,'blue');    // g i ---> global change along with case-sensitive
+console.log(newStr)
+
+let str2 = "Mr John is software employee and his role is Software devolper"
+let newStr2 = str2.replaceAll(/software/gi,'hardware');
+console.log(newStr2)
