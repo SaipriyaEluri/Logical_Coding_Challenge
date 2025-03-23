@@ -14,6 +14,22 @@ function FindCommon(arr1,arr2){
 }
 FindCommon(arr1,arr2)
 
+// =======================================================================
+
+function findIntersection(arr1, arr2){
+    return arr1.filter(num => arr2.includes(num))
+}
+
+console.log(findIntersection(arr1,arr2))
+
+
+//=====================unique elements=======================================
+
+function UniqueElements(arr1,arr2){
+    return arr1.filter(num => !arr2.includes(num)).concat(arr2.filter(num => !arr1.includes(num)))
+}
+console.log(UniqueElements(arr1,arr2))
+
 // =============================shorcut way======================================
 
 let ARR1 = [10,20,30,40,50,60]

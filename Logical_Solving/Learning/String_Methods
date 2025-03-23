@@ -4,4 +4,7 @@ console.log(newStr)
 
 let str2 = "Mr John is software employee and his role is Software devolper"
 let newStr2 = str2.replaceAll(/software/gi,'hardware');
-console.log(newStr2)
+console.log(newStr2);
+
+let text = "HELLO WORLD";
+console.log(text.length)

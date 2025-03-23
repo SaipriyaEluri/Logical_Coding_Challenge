@@ -8,9 +8,25 @@ for(var num of arrNum){
 }
 console.log(dupArr);
 
+//return duplicates
+
+let duplicates = arrNum.filter((item,index,self) => self.indexOf(item) !== index);
+
+console.log(duplicates)
+
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 const newArray = new Set(arrNum);
 console.log(newArray);
 const newArray2 = Array.from(newArray);
 console.log(newArray2)
+
+// using reduce method 
+
+const noDuplicates = arrNum.reduce((acc,num) => {
+    if(!acc.includes(num)){
+        acc.push(num)
+    }
+    return acc;
+},[])
+console.log(noDuplicates)

@@ -1,0 +1,11 @@
+// Reduce Method --  iterates and reduces an arrays values into single value
+
+syntax ==
+
+arr.reduce((accumulator,item) => {
+
+},0)
+
+accumulator - parameter is the single value that is returned by the reduce method
+item  - it is the one object from the array
+initial value  - starting value of the accumulator -- it is mandatory
